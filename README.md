@@ -21,7 +21,6 @@ Dostupné na GitHube alebo na kurze od lektora
 ## 🧰 Stránky a nástroje na precvičovanie Microsoft Excel a Power Query
 1. [Microsoft 365](https://www.microsoft.com/sk-sk/microsoft-365/excel)
 1. [Čo je Power Query](https://learn.microsoft.com/sk-sk/power-query/power-query-what-is-power-query)
-
 1. [ASAP Utilities](http://www.asap-utilities.com/excel-tips-shortcuts.php)
 1. [FinStat Firmy s najväčšími tržbami](https://finstat.sk/databaza-financnych-udajov?sort=sales-desc&years=2020)
 1. [FinStat Najziskovejšie Firmy](https://finstat.sk/databaza-financnych-udajov?sort=profit-desc&years=2020)
