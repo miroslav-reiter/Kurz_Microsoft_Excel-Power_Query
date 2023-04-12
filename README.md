@@ -45,7 +45,7 @@ Dostupné na GitHube alebo na kurze od lektora
 [YouTube kanál IT Academy](https://www.youtube.com/watch?v=6nbo18YVf5g&list=PLIu_ZdHo7Pk-rY_6wVj108Dmff67eQWRG)
 
 ## 📎Obsah Kurzu
-I. Predstavenie a práca s Power Query
+### I. Predstavenie a práca s Power Query
 ![image](https://user-images.githubusercontent.com/24510943/231591886-1f51fe5c-b692-4a65-82a3-5ce267a7f1cb.png)
 
 ![image](https://user-images.githubusercontent.com/24510943/231591984-1e1adc92-3285-4301-8ef8-2d705cf5d859.png)
@@ -55,22 +55,21 @@ I. Predstavenie a práca s Power Query
 ### ETL Fázy Power Query
 ![image](https://user-images.githubusercontent.com/24510943/231592236-21b133b0-ea68-4208-a598-d8b61a364cba.png)
 
-
-II. Editor dopytov
+### II. Editor dopytov
 ![image](https://user-images.githubusercontent.com/24510943/231592009-df65f510-ecb9-4e69-945d-def3818862c1.png)
 
 ![image](https://user-images.githubusercontent.com/24510943/231592051-3763a470-31af-42c5-900a-27077e91a49a.png)
 
 ![image](https://user-images.githubusercontent.com/24510943/231592082-4b7de529-bbcd-40ae-8e3c-5e6eec293b80.png)
 
-
-III. Pokročilé Power Query a jazyk M
+### III. Pokročilé Power Query a jazyk M
+![image](https://user-images.githubusercontent.com/24510943/231592428-ce1fdade-f065-4f16-b9b9-f9487b4414df.png)
 
 Základná logika jazyka M spočíva v zápise dopytu nad dátami má vždy dva bloky/kľúčové slová a to>
 ```let``` a ```in```. 
 ```let``` je viacriadková definícia premenných, zatiaľ čo ```in``` je výstup. 
 
-### Ahoj, Svet! (Hello, World) program
+#### Ahoj, Svet! (Hello, World) program
 ```js
 // Jednoriadkový komentár
 /*
@@ -83,7 +82,7 @@ in
     moja_premenna
 ```
 
-### Výrazy (Expressions)
+#### Výrazy (Expressions)
 ```js
 let
     Source = Text.Proper(""Ahoj, Svet!")
@@ -91,7 +90,7 @@ in
     Source
 ```
 
-###  Dátové Typy a Primitívne hodnoty 
+####  Dátové Typy a Primitívne hodnoty 
 | Dátový Typ   | Príklad Hodnoty                |
 |--------------|--------------------------------|
 | Binary       | 00 00 00 02 // počet bodov (2) |
@@ -105,7 +104,7 @@ in
 | Text         | "Adam"                         |
 | Time         | 12:34:12 PM                    |
 
-### Funkcie, Funkčné Hodnoty, Funkcia ako Hodnota
+#### Funkcie, Funkčné Hodnoty, Funkcia ako Hodnota
 Funkcia je hodnota, ktorá po vyvolaní s argumentmi vytvorí novú hodnotu. Funkcie sa píšu tak, že sa v zátvorkách uvedú parametre funkcie, za ktorým nasleduje symbol =>, za ktorým nasleduje výraz definujúci funkciu. Ak chcete napríklad vytvoriť funkciu s názvom „VlastnaFunkcia“, ktorá má dva parametre a vykoná výpočet na parametri1 a parametri2.
 
 ```js
