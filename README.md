@@ -1,4 +1,4 @@
-# 📊 Materiály ku kurzu Microsoft Excel - Power Query
+# 💪 Materiály ku kurzu Microsoft Excel - Power Query
 
 [Kurz Microsoft Excel - Power Query](https://www.it-academy.sk/kurz/microsoft-excel-excel-power-query/) je určený pre účastníkov s predchádzajúcou znalosťou Microsoft Excel, vrátane tých, ktorí budú používať Excel s nástrojom Power Query pre dôležité obchodné rozhodnutia a analýzu dát. Naučíš sa spracovávať, importovať a transformovať dáta z rôznych zdrojov. Kvôli práci s dátovým modelom sa odporúča absolvovanie tréningu Excel - PowerPivot avšak toto odporúčanie nie je podmienkou.
 
