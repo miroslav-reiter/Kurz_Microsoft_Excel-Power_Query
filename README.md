@@ -7,6 +7,7 @@ Power Query je **ETL (Extract Transform Load) nástroj** vytvorený spoločnosť
 
 ## 🙋 V ktorých verziách a edíciach Microsoft Excel nájdeme Power Query
 Najaktuálnešia/najnovšia verzia je **Microsoft Excel 365 (Office 365)**. Na trhu sú aj standalone verzie: 2010, 2013, 2016, 2019, 2021
+![image](https://user-images.githubusercontent.com/24510943/231591950-6dc4e86b-f0b3-41b0-8bb5-98c0021a6455.png)
 
 **TIP:** Verzie zistíme na Karte Domov (Home) > Konto (Account) > Čo je Excel
 ![verzia](https://user-images.githubusercontent.com/24510943/212565132-3a9892b7-d660-4e8e-b883-45794a06fc50.png)
@@ -36,21 +37,34 @@ Dostupné na GitHube alebo na kurze od lektora
 5. [The Ultimate Guide to Using Microsoft Excel](https://blog.hubspot.com/marketing/microsoft-excel)
 6. [Microsoft Excel Statistics](https://support.microsoft.com/en-us/office/check-workbook-statistics-afa12d4b-9584-4826-99a8-33228467e006)
 7. [Dokumentácia k Power Query](https://learn.microsoft.com/sk-sk/power-query/)
+8. [Špecifikácia jazyka M](https://learn.microsoft.com/cs-cz/powerquery-m/m-spec-introduction)
+9. [Výrazy jazyk M](https://learn.microsoft.com/en-us/powerquery-m/expressions-values-and-let-expression)
+
 
 ## 📈 YouTube video záznamy z kurzy a prednášok Playlist (Kancelárske Balíky)
 [YouTube kanál IT Academy](https://www.youtube.com/watch?v=6nbo18YVf5g&list=PLIu_ZdHo7Pk-rY_6wVj108Dmff67eQWRG)
 
 ## 📎Obsah Kurzu
 I. Predstavenie a práca s Power Query
+![image](https://user-images.githubusercontent.com/24510943/231591886-1f51fe5c-b692-4a65-82a3-5ce267a7f1cb.png)
 
+![image](https://user-images.githubusercontent.com/24510943/231591984-1e1adc92-3285-4301-8ef8-2d705cf5d859.png)
+
+![image](https://user-images.githubusercontent.com/24510943/231592120-02f2b7df-2722-438c-aa75-13717b8baf6b.png)
+
+### ETL Fázy Power Query
+![image](https://user-images.githubusercontent.com/24510943/231592236-21b133b0-ea68-4208-a598-d8b61a364cba.png)
 
 
 II. Editor dopytov
+![image](https://user-images.githubusercontent.com/24510943/231592009-df65f510-ecb9-4e69-945d-def3818862c1.png)
+
+![image](https://user-images.githubusercontent.com/24510943/231592051-3763a470-31af-42c5-900a-27077e91a49a.png)
+
+![image](https://user-images.githubusercontent.com/24510943/231592082-4b7de529-bbcd-40ae-8e3c-5e6eec293b80.png)
 
 
 III. Pokročilé Power Query a jazyk M
-https://learn.microsoft.com/cs-cz/powerquery-m/m-spec-introduction
-https://learn.microsoft.com/en-us/powerquery-m/expressions-values-and-let-expression
 
 Základná logika jazyka M spočíva v zápise dopytu nad dátami má vždy dva bloky/kľúčové slová a to>
 ```let``` a ```in```. 
