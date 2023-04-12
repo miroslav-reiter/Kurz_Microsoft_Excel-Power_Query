@@ -11,7 +11,6 @@ Najaktuálnešia/najnovšia verzia je **Microsoft Excel 365 (Office 365)**. Na t
 **TIP:** Verzie zistíme na Karte Domov (Home) > Konto (Account) > Čo je Excel
 ![verzia](https://user-images.githubusercontent.com/24510943/212565132-3a9892b7-d660-4e8e-b883-45794a06fc50.png)
 
-
 ## ⚓ Odkazy na kurzy
 [Prezenčné Kurzy Microsoft Excel a Power Query](https://www.it-academy.sk/kategoria/kancelarske-baliky/kurzy-excel/)  
 [Online Kurz Microsoft Excel - Power Query](https://www.vita.sk/online-kurz-microsoft-excel-power-query/)  
@@ -21,12 +20,14 @@ Dostupné na GitHube alebo na kurze od lektora
 
 ## 🧰 Stránky a nástroje na precvičovanie Microsoft Excel a Power Query
 1. [Microsoft 365](https://www.microsoft.com/sk-sk/microsoft-365/excel)
-2. [ASAP Utilities](http://www.asap-utilities.com/excel-tips-shortcuts.php)
-3. [Microsoft Excel Alza Návod](https://www.alza.sk/microsoft-excel-navod)
-4. [FinStat Firmy s najväčšími tržbami](https://finstat.sk/databaza-financnych-udajov?sort=sales-desc&years=2020)
-5. [FinStat Najziskovejšie Firmy](https://finstat.sk/databaza-financnych-udajov?sort=profit-desc&years=2020)
-6. [FinStat Najväčší zamestnávatelia](https://finstat.sk/databaza-firiem-organizacii?sort=empl-desc)
-7. [FinStat Najväčšie univerzity](https://finstat.sk/databaza-neziskoviek?sort=revenue-desc&tab=revenue&legalform=382)
+1. [Čo je Power Query](https://learn.microsoft.com/sk-sk/power-query/power-query-what-is-power-query)
+
+1. [ASAP Utilities](http://www.asap-utilities.com/excel-tips-shortcuts.php)
+1. [FinStat Firmy s najväčšími tržbami](https://finstat.sk/databaza-financnych-udajov?sort=sales-desc&years=2020)
+1. [FinStat Najziskovejšie Firmy](https://finstat.sk/databaza-financnych-udajov?sort=profit-desc&years=2020)
+1. [FinStat Najväčší zamestnávatelia](https://finstat.sk/databaza-firiem-organizacii?sort=empl-desc)
+1. [FinStat Najväčšie univerzity](https://finstat.sk/databaza-neziskoviek?sort=revenue-desc&tab=revenue&legalform=382)
+1. [Informácie o Doplnku Power Query](https://support.microsoft.com/sk-sk/office/informácie-o-doplnku-power-query-v-exceli-7104fbee-9e62-4cb9-a02e-5bfb1a6c536a)
 
 ## 📔 Dokumentácia Microsoft Excel, Power Query a Guidelines
 1. [Microsoft Excel help & learning](https://support.microsoft.com/en-us/excel)
@@ -35,8 +36,76 @@ Dostupné na GitHube alebo na kurze od lektora
 4. [Microsoft Excel functions (alphabetical)](https://support.microsoft.com/en-us/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188)
 5. [The Ultimate Guide to Using Microsoft Excel](https://blog.hubspot.com/marketing/microsoft-excel)
 6. [Microsoft Excel Statistics](https://support.microsoft.com/en-us/office/check-workbook-statistics-afa12d4b-9584-4826-99a8-33228467e006)
+7. [Dokumentácia k Power Query](https://learn.microsoft.com/sk-sk/power-query/)
 
 ## 📈 YouTube video záznamy z kurzy a prednášok Playlist (Kancelárske Balíky)
 [YouTube kanál IT Academy](https://www.youtube.com/watch?v=6nbo18YVf5g&list=PLIu_ZdHo7Pk-rY_6wVj108Dmff67eQWRG)
 
 ## 📎Obsah Kurzu
+I. Predstavenie a práca s Power Query
+
+
+
+II. Editor dopytov
+
+
+III. Pokročilé Power Query a jazyk M
+https://learn.microsoft.com/cs-cz/powerquery-m/m-spec-introduction
+https://learn.microsoft.com/en-us/powerquery-m/expressions-values-and-let-expression
+
+Základná logika jazyka M spočíva v zápise dopytu nad dátami má vždy dva bloky/kľúčové slová a to>
+```let``` a ```in```. 
+```let``` je viacriadková definícia premenných, zatiaľ čo ```in``` je výstup. 
+
+### Ahoj, Svet! (Hello, World) program
+```js
+// Jednoriadkový komentár
+/*
+  Viacriadkový 
+  komentár
+*/
+let
+    moja_premenna = "Ahoj, Svet!"
+in
+    moja_premenna
+```
+
+### Výrazy (Expressions)
+```js
+let
+    Source = Text.Proper(""Ahoj, Svet!")
+in
+    Source
+```
+
+###  Dátové Typy a Primitívne hodnoty 
+| Dátový Typ   | Príklad Hodnoty                |
+|--------------|--------------------------------|
+| Binary       | 00 00 00 02 // počet bodov (2) |
+| Date         | 5/23/2023                      |
+| DateTime     | 5/23/2023 12:00:00 AM          |
+| DateTimeZone | 5/23/2023 12:00:00 AM -08:00   |
+| Duration     | 15:35:00                       |
+| Logical      | true a false                   |
+| Null         | null                           |
+| Number       | 0, 1, -1, 1.5, a 2.3e-5        |
+| Text         | "Adam"                         |
+| Time         | 12:34:12 PM                    |
+
+### Funkcie, Funkčné Hodnoty, Funkcia ako Hodnota
+Funkcia je hodnota, ktorá po vyvolaní s argumentmi vytvorí novú hodnotu. Funkcie sa píšu tak, že sa v zátvorkách uvedú parametre funkcie, za ktorým nasleduje symbol =>, za ktorým nasleduje výraz definujúci funkciu. Ak chcete napríklad vytvoriť funkciu s názvom „VlastnaFunkcia“, ktorá má dva parametre a vykoná výpočet na parametri1 a parametri2.
+
+```js
+let
+    VlastnaFunkcia = (parameter1, parameter2) => (parameter1 + parameter2) / 2
+in
+    VlastnaFunkcia
+```
+
+#### Volanie Funkcie (Call Function)
+```js
+let
+    Source = VlastnaFunkcia(6, 2)
+in
+    Source
+```
